@@ -1,0 +1,89 @@
+body{
+    background-image: linear-gradient(to right top, #3323e3, #a300ba, #ce008d, #e00065, #e20044, #e03131, #db4a1d, #d25f00, #c78200, #afa300, #85c200, #22de3a); background-color:rgb(86, 86, 235) ;
+
+    min-height: 100vh;
+}
+.levels{
+   
+    text-align: center;
+    font-size: 70px;
+    color: white;
+
+}
+.task-text{
+    font-size: 50px;
+    color: rgb(248, 248, 248);
+    text-align: center;
+}
+#level-1{
+    height: 40%;
+    width:38% ;
+    background-color: rgb(255, 255, 255);
+    margin-left: 32%;
+    margin-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+}
+
+
+.blue-color{
+    background-color: blue;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 2% 2% 2% 2%;
+    display: inline-block;
+}
+.green-color{
+    background-color: green;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 2% 2% 2% 2%;
+    display: inline-block;
+}
+.red-color{
+    background-color: red;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 2% 2% 2% 2%;
+    display: inline-block;
+}
+.yellow-color{
+    background-color: yellow;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 2% 2% 2% 2%;
+    display: inline-block;
+}
+
+.lives{
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+}
+
+.balloon span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 20px;
+    width: 53px;
+}
+.poppedBalloon{
+    background-color: transparent !important;
+    box-shadow: none;
+} 
+
+
+
+
+
+
+
+

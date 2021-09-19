@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style2.css">
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script defer src="./app.js"></script>
+</head>
+<body>
+    <h1 class="levels">level - 1</h1>
+    <p class="task-text">  tast: Pop only <span style="color: red;">RED</span> bollons </p> <br>
+    <p class="lives">lives : 3 </p>
+    <div id="level-1">
+        
+        <div class="red-color balloon" onmouseover="balloon_pop(this.id , event)"></div>
+        <div class="green-color balloon" onmouseover="balloon_pop(this.id , event)"></div>
+        <div class="yellow-color balloon" onmouseover="balloon_pop(this.id , event)"></div>
+        <div class="red-color balloon" onmouseover="balloon_pop(this.id , event)"></div>
+        <div class="green-color balloon" onmouseover="balloon_pop(this.id , event)"></div>
+        <div class="red-color balloon" onmouseover="balloon_pop(this.id , event)"></div>
+        <div class="blue-color balloon" onmouseover="balloon_pop(this.id , event)"></div>
+        <div class="yellow-color balloon" onmouseover="balloon_pop(this.id , event)"></div>
+        <div class="blue-color balloon" onmouseover="balloon_pop(this.id , event)"></div>
+        <div class="green-color balloon" onmouseover="balloon_pop(this.id , event)"></div>
+        <div class="red-color balloon" onmouseover="balloon_pop(this.id , event)"></div>
+        <div class="blue-color balloon" onmouseover="balloon_pop(this.id , event)"></div>
+        <div class="blue-color balloon" onmouseover="balloon_pop(this.id , event)"></div>
+        <div class="yellow-color balloon" onmouseover="balloon_pop(this.id , event)"></div>
+        <div class="red-color balloon" onmouseover="balloon_pop(this.id , event)"></div>
+        <div class="yellow-color balloon" onmouseover="balloon_pop(this.id , event)"></div>
+        <div class="green-color balloon" onmouseover="balloon_pop(this.id , event)"></div>   
+        <div class="red-color balloon" onmouseover="balloon_pop(this.id , event)"></div> 
+        <div class="yellow-color balloon" onmouseover="balloon_pop(this.id , event)"></div>
+        <div class="blue-color balloon" onmouseover="balloon_pop(this.id , event)"></div>
+    </div>
+
+   <a href="./index.html" id="logout-btn">logout</a>
+    
+</body>
+</html>

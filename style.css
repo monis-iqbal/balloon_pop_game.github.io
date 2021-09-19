@@ -1,0 +1,91 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: linear-gradient(to right top, #d64c9b, #b13d8f, #8c2f80, #682270, #45165e, #38256b, #263175, #003c7d, #0063a1, #0089b9, #00b0c5, #05d5c7);
+    background-repeat: no-repeat;
+    min-height: 95vh;
+
+}
+#title{
+    margin-left: 35%;
+    font-size: 300%;
+    background: #CF6CB1;
+    background: -webkit-linear-gradient(to bottom right, #e6a2d1 0%, #9991e2 50%, #88bee2 100%);
+    background: -moz-linear-gradient(to bottom right,  #e6a2d1, #9991e2 50%, #88bee2 100%);
+    background: linear-gradient(to bottom right,  #e6a2d1, #9991e2 50%, #88bee2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+#login-form{
+    height: 50%;
+    width: 20%;
+}
+#login-form-div{
+    height: 60%;
+    width: 20%;
+    
+}
+#login-heading{
+    text-decoration: underline;
+}
+#form {
+    background-color: rgb(245, 245, 248);
+    height: 330px;
+    width: 23%;
+    margin: 80px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px gray;
+    border-left: 5px solid #2da2e5;
+    clear: both;
+    background-image: linear-gradient(to left bottom, #d64c9b, #b13d8f, #8c2f80, #682270, #45165e, #38256b, #263175, #003c7d, #0063a1, #0089b9, #00b0c5, #05d5c7);
+}
+
+.input-email-password{
+    height: 25px;
+    width: 80%;
+    border-radius: 7px;
+    margin-left: 10%;
+    
+    
+
+}
+#login-btn{
+    height: 35px;
+    width: 60px;
+    margin-left: 40%;
+    border-radius: 10px;
+    background-color: rgb(112, 112, 230);
+}
+
+#label-email{
+    margin-left: 40%;
+    color: white;
+    font-family: Sans-serif;
+   
+}
+
+#label-password{
+    margin-left: 36%;
+    color: rgb(250, 238, 238);
+    font-family: Sans-serif;
+}
+#register-text{
+    margin-left: 30%;
+    color: white;
+}
+
+/* for register form  */
+#signin-btn{
+    height: 35px;
+    width: 60px;
+    margin-left: 40%;
+    border-radius: 10px;
+    background-color: rgb(112, 112, 230);}
+
+
+#login-text{
+    margin-left: 25%;
+    color: white;
+}
